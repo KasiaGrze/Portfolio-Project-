@@ -154,6 +154,7 @@ Recommendations:
 -	Discount should be given to Casual riders to encourage them to use the bikes more frequently
 -	Summer months are more popular with Casual riders so special prices should be developed for these months
 -	The three most popular stations for Casual riders should have more bikes available to make sure there are enough of them to use
+  
 
   
 
@@ -162,6 +163,7 @@ Data set downloaded from ourworldindata.org site as .csv file and saved as an Ex
 Due to the size of the original data set, I have created two separate files for further analysis: Covid_deaths and Covid_vaccination with just selected data.
 Some data cleaning have been done such as converting data type and dealing with 0 values. Then the analysis such as total cases versus total deaths, checking data for Poland, analysing total cases versus population
 have been performed using SQL language.
+
 Then the two sets have been joined to perform further analysis such as checking the total population versus vaccinations and inserting a rolling count of vaccinated people.
 Finally a cte and a view have been created to store data for later analysis in Tableau.
 
