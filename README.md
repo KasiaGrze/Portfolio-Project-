@@ -156,10 +156,12 @@ Recommendations:
 -	The three most popular stations for Casual riders should have more bikes available to make sure there are enough of them to use
   
 
-  
+
+
 
 3. Covid analysis
 Data set downloaded from ourworldindata.org site as .csv file and saved as an Excel file and imported into SQL Server Management Studio.
+
 Due to the size of the original data set, I have created two separate files for further analysis: Covid_deaths and Covid_vaccination with just selected data.
 Some data cleaning have been done such as converting data type and dealing with 0 values. Then the analysis such as total cases versus total deaths, checking data for Poland, analysing total cases versus population
 have been performed using SQL language.
