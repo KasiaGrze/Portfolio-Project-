@@ -1,5 +1,5 @@
 # Portfolio-Project-
-1. Bike analysis
+A. Bike analysis
    
 Data set in Excel (converted from .csv file) contains 13 columns: ID, Marital Status, Gender, Income, Children, Education, Occupation, Home Owners, Cars, Commute Distance, Region, Age, Purchased Bike.
    
@@ -12,7 +12,7 @@ The dashboard shows average income per purchase, customer age bracket and custom
 
    
 
-2. Cyclistic analysis
+B. Cyclistic analysis
    
   
                                                                                         
@@ -158,8 +158,8 @@ Recommendations:
 
 
 
-
-3. Covid analysis
+C. Covid analysis
+   
 Data set downloaded from ourworldindata.org site as .csv file and saved as an Excel file and imported into SQL Server Management Studio.
 
 Due to the size of the original data set, I have created two separate files for further analysis: Covid_deaths and Covid_vaccination with just selected data.
