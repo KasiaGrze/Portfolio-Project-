@@ -1,5 +1,5 @@
 # Portfolio-Project-
-A. Bike analysis
+A. Bike analysis using Excel
    
 Data set in Excel (converted from .csv file) contains 13 columns: ID, Marital Status, Gender, Income, Children, Education, Occupation, Home Owners, Cars, Commute Distance, Region, Age, Purchased Bike.
    
@@ -12,7 +12,7 @@ The dashboard shows average income per purchase, customer age bracket and custom
 
    
 
-B. Cyclistic analysis
+B. Cyclistic analysis using Excel
    
   
                                                                                         
@@ -158,7 +158,7 @@ Recommendations:
 
 
 
-C. Covid analysis
+C. Covid analysis using SQL Microsoft SQL Server Management Studio
    
 Data set downloaded from ourworldindata.org site as .csv file and saved as an Excel file and imported into SQL Server Management Studio.
 
@@ -168,6 +168,21 @@ have been performed using SQL language.
 
 Then the two sets have been joined to perform further analysis such as checking the total population versus vaccinations and inserting a rolling count of vaccinated people.
 Finally a cte and a view have been created to store data for later analysis in Tableau.
+
+
+
+D. Cyclistic analysis using Google BigQuery
+
+
+This is the same dataset as in the above analysis (B. Cyclistic analysis using Excel). 
+
+The data has been made available by Motive International Inc. under their licence as .csv files.
+
+This time, instead of Excel, I have used SQL language and Google BigQuery platform. Due to the size of the data set, I have used only 4 months of data to perform the analysis and just one randomly choose station 
+to create the subset of data. After conduction some analysis and running the queries, I have saved the results and made them public. Then I have exported the file as and .csv file to my computer to be ready for 
+visualisation in Tableau.
+
+
 
 														
 										
