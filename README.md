@@ -184,7 +184,11 @@ visualisation in Tableau.
 
 
 E. Covid dashboard analysis visualisation using Tableau.
-Data can be seen in Tableau - https://public.tableau.com/app/profile/kasia6333/viz/CovidDashboardAnalysis_16878767654570/Dashboard1?publish=yes
+Dashboard can be viewed in Tableau - https://public.tableau.com/app/profile/kasia6333/viz/CovidDashboardAnalysis_16878767654570/Dashboard1?publish=yes
+
+
+F. Cyclistic dashboard analysis visualisation using Tableau.
+Dashboard can be viewed in Tableau - https://public.tableau.com/app/profile/kasia6333/viz/RidesAnalysis_16814870642580/RidesAnalysis
 
 
 
