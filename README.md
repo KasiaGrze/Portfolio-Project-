@@ -183,6 +183,11 @@ to create the subset of data. After conduction some analysis and running the que
 visualisation in Tableau.
 
 
+E. Covid dashboard analysis visualisation using Tableau.
+Data can be seen in Tableau - https://public.tableau.com/app/profile/kasia6333/viz/CovidDashboardAnalysis_16878767654570/Dashboard1?publish=yes
+
+
+
 
 														
 										
