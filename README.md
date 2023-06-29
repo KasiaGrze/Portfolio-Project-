@@ -183,11 +183,11 @@ to create the subset of data. After conduction some analysis and running the que
 visualisation in Tableau.
 
 
-E. Covid dashboard analysis visualisation using Tableau.
+E. Covid dashboard analysis visualisation using Tableau Public.
 Dashboard can be viewed in Tableau - https://public.tableau.com/app/profile/kasia6333/viz/CovidDashboardAnalysis_16878767654570/Dashboard1?publish=yes
 
 
-F. Cyclistic dashboard analysis visualisation using Tableau.
+F. Cyclistic dashboard analysis visualisation using Tableau Public.
 Dashboard can be viewed in Tableau - https://public.tableau.com/app/profile/kasia6333/viz/RidesAnalysis_16814870642580/RidesAnalysis
 
 
