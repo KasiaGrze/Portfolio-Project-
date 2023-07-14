@@ -197,6 +197,10 @@ H. Hotel_bookings dataset.
 
 I. Ebola virus dataset.
 
+J. Cyclistic analysis using R language and RStudio Desktop.
+
+
+
 
 
 
