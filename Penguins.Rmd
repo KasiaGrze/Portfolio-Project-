@@ -1,0 +1,90 @@
+---
+title: "Penguins"
+author: "Kasia"
+date: "2023-05-31"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+### Loading packages
+
+```{r loading data}
+library(tidyverse)
+library(palmerpenguins)
+View(penguins)
+
+```
+#### Inspecting data
+```{r getting to know the data}
+head(penguins)
+str(penguins)
+colnames(penguins)
+```
+#### Summarising data without NA values
+```{r removing NA values}
+penguins %>%
+  group_by(species, island) %>%
+  drop_na() %>%
+  summarise(max_bl = max(bill_length_mm), mean_bl = mean(bill_length_mm))
+```
+#### Transforming data - adding a column with kilograms
+```{r adding a column with kilograms instead of grams}
+penguins %>%
+  mutate(body_mass_kg = body_mass_g/100)
+```
+#### Visualising data with ggplot2 - showing different penguins species
+```{r loading ggplot}
+library(ggplot2)
+library(palmerpenguins)
+```
+
+
+```{r visualising data}
+data("penguins")
+ggplot(data = penguins) +
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+#### Mapping a new variable to a new aesthetic
+```{r}
+ggplot(data = penguins) +
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, shape = species, color = species))
+```
+#### Showing the relationship between the trend line and data point more clearly
+```{r showing relationship between variables}
+ggplot(data = penguins) +
+  geom_smooth(mapping = aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+#### Plotting a separate line for each species of penguins
+```{r separate line for each species}
+ggplot(data = penguins) +
+  geom_smooth(mapping = aes(x = flipper_length_mm, y = body_mass_g, linetype = species))
+```
+
+# Jittering a plot
+```{r adding a random noise}
+ggplot(data = penguins) +
+  geom_jitter(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+# Focusing on the data for each species of penguins
+```{r showing data for each species}
+ggplot(data = penguins) +
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
+  facet_grid(~species)
+```
+####  Labeling the plot
+```{r naming the plot}
+ggplot(data = penguins) +
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
+  labs(title = "Palmer Penguins: Body Mass vs Flipper Length",
+       subtitle = "Sample of Three Penguin Species",
+       caption = "Data collected by Dr.Kristen Gorman") +
+  annotate("text", x = 220, y = 3500, label = "The Gentoos are the largest")
+
+```
+
+`````{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
