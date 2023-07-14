@@ -195,6 +195,8 @@ G. Penquins dataset from R library palmerpenguins.
 
 H. Hotel_bookings dataset.
 
+I. Ebola virus dataset.
+
 
 
 
