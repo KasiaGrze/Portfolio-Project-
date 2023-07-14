@@ -191,6 +191,9 @@ F. Cyclistic dashboard analysis visualisation using Tableau Public.
 Dashboard can be viewed in Tableau - https://public.tableau.com/app/profile/kasia6333/viz/RidesAnalysis_16814870642580/RidesAnalysis
 
 
+G. Penquins dataset from R library palmerpenguins.
+
+
 
 
 														
