@@ -193,6 +193,8 @@ Dashboard can be viewed in Tableau - https://public.tableau.com/app/profile/kasi
 
 G. Penquins dataset from R library palmerpenguins.
 
+H. Hotel_bookings dataset.
+
 
 
 
